@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.full-width-table {
+  width: 100%;
+}
+
+.row-container {
+  align-items: center;
+}
+
+.page-size-off>div>div>.mat-paginator-page-size {
+  display: none !important;
+}
+
+th.mat-header-cell {
+  text-align: center !important;
+}
+
+.mat-sort-header-container{
+  justify-content: center;
+}
+
+
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+mat-card-actions {
+  text-align: right;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  justify-content: flex-end;
+}
+
+.mat-sort-header-container {
+  /* flex-direction: column !important;  */
+  justify-content: center !important;
+  /* text-align: center !important; */
+}
+
+.mat-header-cell {
+  text-align: center !important;
+}
+
+.mrb-horizontal {
+  padding-right: 5px;
+}
+
+.mrg-horizontal {
+  display: flex;
+  flex-direction: row;
+  /* display: inline-grid; */
+  /* display: grid; */
+  margin: 30px 0;
+}
+
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.mrg-horizontal-label {
+  align-self: center;
+  margin-right: 10px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.shipping-card {
+  min-width: 120px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.timepicker-overlay {
+  z-index: 10000000 !important;
+}
+
+.timepicker-backdrop-overlay {
+  z-index: 10000000 !important;
+}
+
+div.fc-event-time, div.fc-event-title.fc-sticky {
+  color: white;
+  background-color: #911702;
+}
+
+div.fc-scrollgrid-sync-inner {
+  background-color: blanchedalmond;
+}
+
+.mat-cell {
+  text-align: center !important;
+}
+
+.align-component {
+  /* display: flex;
+  align-items: center;
+  flex: 10; */
+
+  display: flex;
+  align-items: flex-end;
+  flex: 2;
+  padding-right: 2%;
+  /* justify-content: center; */
+}
+
+.example-section {
+  margin: 12px 0;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-column-select {
+  overflow: initial;
+}
+
+mat-card > mat-toolbar {
+  margin-bottom: 2% !important;
+}
+
+/* force events to be one-line tall */
+/* .fc-day-grid-event > .fc-content {
+  white-space: none !important;
+} */
+
