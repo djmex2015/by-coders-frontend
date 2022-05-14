@@ -31,7 +31,15 @@
   align-items: baseline;
 }
 
-
 .table-pad{
   padding-left: 2%;
+}
+
+.example-form-field {
+  width: 200px;
+}
+
+.input-custom{
+  margin: 10px;
+  background-color: blanchedalmond;
 }

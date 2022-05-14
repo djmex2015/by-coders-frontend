@@ -2,12 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { APP_INITIALIZER, CUSTOM_ELEMENTS_SCHEMA, LOCALE_ID, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { AngularMaterialModule } from './shared/angular-material.module';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -22,7 +25,11 @@ import { FormsModule } from '@angular/forms';
     NoopAnimationsModule,
     AngularMaterialModule,
     HttpClientModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatCardModule,
+    ReactiveFormsModule,
+    MatSortModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent],

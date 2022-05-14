@@ -24,9 +24,8 @@ export class AppService {
     )
   }
 
-  //aqui poderia ser criado tambem um DTO em server-side e emviado ao client em lugar do um map e evitar o any
-  listMovimentos(): Observable<HttpResponse<any>> {
-    return this.http.get<HttpResponse<any>>(`${URL_BASE_PATH}/listMovimentos`, { observe: "response" }).pipe(
+  listContacts(name: string, paged: any): Observable<HttpResponse<any>> {
+    return this.http.post<HttpResponse<any>>(`${URL_BASE_PATH}/listContacts`, null, { params: { name, ...paged }, observe: 'response' }).pipe(
       catchError(this.handleError<any>(ERROR_MESSAGE))
     );
   }
